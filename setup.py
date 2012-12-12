@@ -1,13 +1,13 @@
 from distutils.core import setup
 
-version = '1.0.2'
+version = '1.0.3a'
 
 setup(name='pyactiveresource',
       version=version,
       description='ActiveResource for Python',
-      author='Jared Kuolt',
-      author_email='me@superjared.com',
-      url='http://code.google.com/p/pyactiveresource/',
+      author='Jared Kuolt, Brandon Schlueter',
+      author_email='me@superjared.com, bs@bschlueter.com',
+      url='https://github.com/bluSch/pyactiveresource',
       packages=['pyactiveresource'],
       package_dir={'pyactiveresource':'src'},
       license='MIT License',
